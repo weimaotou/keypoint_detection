@@ -1,4 +1,17 @@
+# Usage: pip install -r requirements.txt
+
+# Base -----------------------
+torch==1.13.0
+opencv-python==4.5.2.54
+
+
+# Logging --------------------
+
+# Plotting -------------------
+matplotlib==3.4.2
+# Export ---------------------
+
+# Extras ---------------------
 albumentations
 pycocotools
-opencv-python==4.5.2.54
-matplotlib==3.4.2
+ipython
