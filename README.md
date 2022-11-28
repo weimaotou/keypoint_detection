@@ -15,6 +15,12 @@
 |摄像头输出分辨率|640*480|
 |其他|Bittle，Bittle支架，摄像头支架|
 
+根据环境安装[pytorch](https://pytorch.org/get-started/locally/)
+
+```python
+pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
+```
+
 *对pycocotools库中的cocoeval.py文件进行修改。
 ```python
 #modify self.kpt_oks_sigmas = np.array([.26, .25, .25, .35, .35, .79, .79, .72, .72, .62,.62, 1.07, 1.07, .87, .87, .89, .89])/10.0
