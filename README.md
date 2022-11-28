@@ -21,6 +21,11 @@
 pip3 install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
+```python
+pip install albumentations
+pip install pycocotools
+```
+
 *对pycocotools库中的cocoeval.py文件进行修改。
 ```python
 #modify self.kpt_oks_sigmas = np.array([.26, .25, .25, .35, .35, .79, .79, .72, .72, .62,.62, 1.07, 1.07, .87, .87, .89, .89])/10.0
@@ -31,6 +36,9 @@ self.kpt_oks_sigmas = np.array([.5, .5]) / 10.0
 数据集标注工具 : [**labelImg**](https://github.com/heartexlabs/labelImg)
 
 数据集格式转换，转换成keypoint_rcnn要求的格式,见[Convert_labels](./Convert_labels.ipynb).
+
+我遇到的问题：
+* ```python 'cv2' has no attribute '_registerMatType``` --[解决方法](https://juejin.cn/post/7149915647902744589)
 
 展望：
 * 数据集的收集可以多样化：模拟数据和现实数据
