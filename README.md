@@ -8,7 +8,7 @@
 |GPU|NVIDIA Tesla K80|
 |Python版本|jupyter-notebook python3.7.10 (anaconda installed python3.7.10 virtual environment)|
 |torch版本|1.13.0+cu116|
-|Yolov5模型版本|torchvision.models.detection.keypointrcnn_resnet50_fpn|
+|模型版本|torchvision.models.detection.keypointrcnn_resnet50_fpn|
 |摄像头像元尺寸|未知|
 |摄像头传感器尺寸|未知|
 |摄像头视角角度|未知|
