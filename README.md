@@ -10,5 +10,5 @@ self.kpt_oks_sigmas = np.array([.5, .5]) / 10.0
 数据集标注工具 : [**labelImg**](https://github.com/heartexlabs/labelImg)
 数据集格式转换，转换成keypoint_rcnn要求的格式
 
-* 展望：
-  * 数据集的收集可以多样化：模拟数据和现实数据
+展望：
+* 数据集的收集可以多样化：模拟数据和现实数据
