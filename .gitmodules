@@ -1,3 +1,6 @@
 [submodule "keypoint_rcnn"]
 	path = keypoint_rcnn
 	url = https://github.com/alexppppp/keypoint_rcnn_training_pytorch
+[submodule "labelImg"]
+	path = labelImg
+	url = https://github.com/heartexlabs/labelImg.git
